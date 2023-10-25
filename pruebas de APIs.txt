@@ -1,0 +1,39 @@
+JSONPlaceholder es una API REST que proporciona datos ficticios de diferentes tipos, como usuarios, posts, comentarios, etc.
+
+Faker es una biblioteca JavaScript que genera datos ficticios de diferentes tipos. También tiene una API REST que proporciona acceso a estos datos.
+
+Random User Generator es una API REST que genera datos ficticios de usuarios, como nombre, dirección, email, etc.
+
+GeoJSON Placeholder es una API REST que proporciona datos ficticios de coordenadas geográficas.
+
+Chuck Norris Facts es una API REST que proporciona datos ficticios sobre Chuck Norris.
+
+
+
+Para hacer pruebas de APIs con Postman:
+
+JSONPlaceholder
+Para obtener una lista de usuarios, puedes usar la siguiente solicitud GET:
+GET https://jsonplaceholder.typicode.com/users
+
+Para obtener un usuario específico, puedes usar la siguiente solicitud GET:
+GET https://jsonplaceholder.typicode.com/users/1
+Faker
+
+Para generar un nombre ficticio, puedes usar la siguiente solicitud GET:
+GET https://api.faker.com/v1/name
+
+Para generar una dirección ficticia, puedes usar la siguiente solicitud GET:
+GET https://api.faker.com/v1/address
+
+Random User Generator
+Para obtener un usuario ficticio, puedes usar la siguiente solicitud GET:
+GET https://randomuser.me/api/?format=json
+
+GeoJSON Placeholder
+Para obtener un punto aleatorio en el mundo, puedes usar la siguiente solicitud GET:
+GET https://geojsonplaceholder.typicode.com/geo
+
+Chuck Norris Facts
+Para obtener un hecho aleatorio sobre Chuck Norris, puedes usar la siguiente solicitud GET:
+GET https://api.chucknorris.io/jokes/random
